@@ -1,3 +1,5 @@
+import human.Hero;
+
 public class Wizard {
   private String name;
   private int hp;

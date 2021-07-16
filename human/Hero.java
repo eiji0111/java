@@ -1,3 +1,4 @@
+package human;
 public class Hero {
   private String name;
   private int hp;
@@ -11,7 +12,7 @@ public class Hero {
   public void setHp(int hp) {
     this.hp = hp;
   }
-  Hero(String name, int hp) {
+  public Hero(String name, int hp) {
     this.name = name;
     this.hp = hp;
   }
