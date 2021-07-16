@@ -1,8 +1,14 @@
 public class Main {
   public static void main(String[] args) throws Exception {
-    Cleric cleric1 = new Cleric("natsumi", 100, 20);
-    System.out.println("HP:" + cleric1.hp + "MP:" + cleric1.mp + "の" + cleric1.name + "が生成されました！");
-    Cleric cleric2 = new Cleric("mori");
-    System.out.println("HP:" + cleric2.hp + "MP:" + cleric2.mp + "の" + cleric2.name + "が生成されました！");
+    Hero hero1 = new Hero("ティーダ", 100);
+    System.out.println("HP：" + hero1.getHp());
+    System.out.println(hero1.getName() + "を召喚した！");
+
+    Wand wand1 = new Wand("炎の杖", 20.0);
+    Wizard wizard1 = new Wizard("ユウナ", 80, 60, wand1);
+
+    wizard1.heal(hero1);
+
+    System.out.println(hero1.getName() + "はHPが" + hero1.getHp() + "になった！");
   }
 }
