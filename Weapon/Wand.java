@@ -1,3 +1,4 @@
+package Weapon;
 public class Wand {
   private String name;
   private double power;
@@ -24,7 +25,7 @@ public class Wand {
       throw new IllegalArgumentException("エラーメッセージ：不正な値です");
     }
   }
-  Wand(String name, double power) {
+  public Wand(String name, double power) {
     this.name = name;
     this.power = power;
   }

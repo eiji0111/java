@@ -1,4 +1,5 @@
-import human.Hero;
+package human;
+import Weapon.Wand;
 
 public class Wizard {
   private String name;
@@ -55,7 +56,7 @@ public class Wizard {
     System.out.println(h.getName() + "のHPを" + recovPoint + "回復した！");
   }
 
-  Wizard(String name, int hp, int mp, Wand wand) {
+  public Wizard(String name, int hp, int mp, Wand wand) {
     this.name = name;
     this.hp = hp;
     this.mp = mp;

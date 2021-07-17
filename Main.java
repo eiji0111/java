@@ -1,5 +1,7 @@
+import Weapon.Wand;
 import human.Hero;
 import human.SuperHero;
+import human.Wizard;
 import matango.Matango;
 import matango.PoisonMatango;
 
