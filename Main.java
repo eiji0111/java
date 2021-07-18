@@ -12,5 +12,7 @@ public class Main {
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.setSize(300, 100);
     frame.setVisible(true);
+
+    System.out.println("新規ブランチの作成");
   }
 }
